@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GajiPegawai">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E91E63"
+        android:text="Gaji Pegawai"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/white"
+        android:textSize="12pt" />
+
+    <EditText
+        android:id="@+id/ednik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Nomor Induk Karyawan"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="9pt" />
+
+    <EditText
+        android:id="@+id/ednama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nama Pegawai"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="9pt" />
+
+    <EditText
+        android:id="@+id/edgapok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Gaji Pokok"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="9pt" />
+
+    <EditText
+        android:id="@+id/edtunj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Tunjangan Jabatan"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="9pt" />
+
+    <EditText
+        android:id="@+id/edhari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Jumlah Hari Kerja"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="9pt" />
+
+    <Button
+        android:id="@+id/bthitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3F5185"
+        android:onClick="hitung"
+        android:text="Hitung" />
+
+    <EditText
+        android:id="@+id/edtm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Tunjangan Makan"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="9pt" />
+
+    <EditText
+        android:id="@+id/edtt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Tunjangan Transportasi"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="9pt" />
+
+    <EditText
+        android:id="@+id/edgator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Gaji Kotor"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="9pt" />
+
+    <EditText
+        android:id="@+id/edgaber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Gaji Bersih"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="9pt" />
+
+    <Button
+        android:id="@+id/btkembali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="#FF9000"
+        android:text="Kembali" />
+
+</LinearLayout>
